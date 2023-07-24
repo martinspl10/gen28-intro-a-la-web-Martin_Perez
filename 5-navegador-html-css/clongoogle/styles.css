@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.titulo1{
+    color: hsl(207, 81%, 59%);
+    font-size: 75px;
+    width: 300px; /* Ancho deseado del elemento */
+
+        
+}
+.titulo2{
+    color: red;
+    font-size: 75px;
+    
+    
+}
+.titulo3{
+    color: rgb(221, 210, 55);
+    font-size: 75px;
+}
+.titulo4{
+    color: hsl(207, 81%, 59%);
+    font-size: 75px;
+}
+.titulo5{
+    color: rgb(80, 199, 64);
+    font-size: 75px;
+}
+.titulo6{
+    color: red;
+    font-size: 75px;
+}
+.Barra{
+    padding-left: 1150px;
+    
+}
+.bodi{
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.Google{
+    padding-left: 150px;
+}
+.Logos{
+    padding-top: 25px;
+}
+.logos{
+    width: 40px; /* Ajusta el ancho de la imagen a 300 píxeles */
+    height: auto; /* Mantén la proporción original de la imagen */
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+.Redondo {
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px; /* Puedes ajustar el valor según el tamaño de redondez que desees */
+    border: 1px solid #ccc;
+    outline: none; /* Para quitar el borde de enfoque en algunos navegadores */
+}
+.contenedor-input {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-input img {
+  width: 25px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  margin-left: -40px; /* Mueve la imagen hacia la izquierda para que se superponga ligeramente con el campo de entrada */
+}
