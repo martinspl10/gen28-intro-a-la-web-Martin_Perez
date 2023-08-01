@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+.caja{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    /*margin: 15px; el espacio entre cada contenedor*/
+    text-align:center; /*alinea el texto en eje "x"*/
+    /*para no usar esto ya que crea mucho problemas "float: left;" usaremos display: grid */
+    width: auto;
+    }
+.grid-layout{
+    display: grid;
+    grid-template-columns: 1fr ;/*cuantas columnas queremos*/
+    grid-template-rows: 10vh 10vh  80vh;
+    min-height: 100vh; /*hace que se ocupe el 100 del tamaño de la pantalla */
+    
+}
+.item-barra{
+    display: flex;
+    width: 33%;
+}
+.c1{
+    width: 100%;
+    display: flex;
+    border: 1px;
+}
+.logoyutu1{
+    display: flex;
+    justify-content: flex-start; /*lo mande al lado izquierdo de la fila*/
+}
+.logoyutu2{
+    display: flex;
+    justify-content: flex-start; /*lo mande al lado izquierdo de la fila*/
+}
+.titulo1{
+    padding-top: 15px;
+    padding-right: 175px;
+}
+.Redondo {
+    padding: 10px;
+    width: 300px;
+    border-radius: 40px; /* Puedes ajustar el valor según el tamaño de redondez que desees */
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+.busquedalogo{
+    width: 10px;
+    height: 3vh;
+    margin-top: 23px ;
+    margin-left: -40px;
+}
+.logoyutu3{
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+    margin-right: 10px;
+    line-height: 10vh;
+}
+.logoyutu4{
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+    margin-right: 10px;
+    line-height: 10vh;
+    
+}
+.logoyutu5{
+    width: 22px;
+    height: 22px;
+    margin-top: 12px;
+    padding-right: 10px;
+    line-height: 10vh;
+}
+.usuario{
+    justify-content: end;
+}
+
+
+.grid-main{
+    display: grid;
+    grid-template-columns: 10% 90%;/*este grid separa el menu lateral y la caja de videos*/
+    
+}
+.caja-2lateral{
+    display: grid;
+    grid-template-columns: auto;
+    height: 15vh;
+}
+.logos{
+    width: 22px;
+    height: 22px;
+    padding-top: 10px;
+    padding-inline-start: 30%;
+}
+.logosmusica{
+    width: 40px;
+    height: 40px;
+    padding-left: 35px;
+}
+.Barra-lateral{
+    padding-bottom: 50vh;
+    padding-left: 15px;
+}
+.c4{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.contenidoc4{
+    align-items: space-between;
+}
+.c3{
+background-color: rgb(255, 255, 255);
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.cajitas{
+    border: 1px solid white;
+    margin: 15px;
+    text-align: center;
+}
+.imagen{
+    border-radius: 35px;
+    width:  310px;
+    height: 200px;
+}
+.barrabajo{
+
+font-size: larger;
+}
